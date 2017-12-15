@@ -11,3 +11,8 @@ docker build -t image_name .
 ```
 docker run -d -p 9080:9080 image_name
 ```
+
+# Execute
+```
+curl  http://localhost:9080/hello/anyname
+```
